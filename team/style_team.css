@@ -1,0 +1,49 @@
+.members{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(240deg,   #122346,  #070e1b, #070e1b, #122346);
+    border-radius: 10px;
+    padding: 20px;  
+    gap:30px;
+    margin: 0px 30px 70px 30px;
+    border: 1px solid white;
+}
+
+.member{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text_part{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.name{
+    font-size: 300%;
+    padding: 0;
+    margin-bottom: -15px;
+}
+
+.job{
+    color: grey;
+    margin-bottom: 35px;
+}
+
+.description{
+    font-size: 100%;
+    display:inline-block;
+}
+
+.photo{
+    border-radius: 10px;
+    border: 1px solid white;
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 300px; 
+    height: 350px; 
+    object-fit: cover;
+}

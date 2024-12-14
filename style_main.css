@@ -1,0 +1,22 @@
+.page_title img{
+    width: 900px;
+    padding-top: 50px;
+}
+
+.page_title{
+    background-image: url(images/script.png);
+    height: 800px;
+    margin-bottom: -30px;
+}
+
+.text-centered{
+    text-align: center;
+}
+
+.text-centered h1{
+    font-size: 80px
+}
+
+.text-centered h2{
+    font-size: 40px
+}

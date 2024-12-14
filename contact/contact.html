@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../style_general.css">
+    <link rel="stylesheet" href="style_contact.css">
+    <link rel="icon" href="../images/logo.png">
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html" class="logo"><img src="../images/banniere.png" alt="Logo de French_Dev" title="French_Dev"></a>
+        <a href="../games/games.html">Our games</a>
+        <a href="../team/team.html">Our team</a>
+        <a href="../contact/contact.html">Contact Us</a>
+    </nav>
+    
+    <main>
+        <section class="page_title">
+            <h1>Contact Us</h1>
+        </section>
+
+        <section>
+            <form method="get" action="">
+                <div class="row">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="age">Age :</label>
+                    <input type="text" name="age" id="age" required> 
+                    <label for="e-mail">Email :</label>
+                    <input type="email" name="e-mail" id="e-mail" required>
+                    <label for="gender">Gender :</label>
+                    <select name="gender" id="gender" required>
+                        <option value="man">Man</option>
+                        <option value="woman">Woman</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <textarea name="message" id="message" placeholder="Your message..." required></textarea>
+                </div>
+                <div class="row">
+                    <input type="submit" value="send" id="send">
+                </div>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>@FrenchDev</p>
+        <span class="social_medias">
+            <a href="https://www.youtube.com/@french_dev" target="_blank"><img src="../images/youtube.png" title="Youtube"></a>
+            <a href="https://twitter.com/_FrenchDev_" target="_blank"><img src="../images/X.png" title="X"></a>
+            <a href="https://french-dev.itch.io" target="_blank"><img src="../images/itch.png" title="Itch.io"></a>
+        </span>
+    </footer>
+
+</body>
+
+</html>

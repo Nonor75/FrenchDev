@@ -1,0 +1,90 @@
+body{
+
+    background: linear-gradient(272deg, #325492, rgb(0, 0, 0));
+    background-size: 200% 1000%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.page_title{
+    margin: -50px;
+    text-align: center;
+    font-weight: 300px;
+    font-size: 400%;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.page_title h1{
+    margin: 1em;
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.logo img{
+    background: url("../images/fond_style.png");
+    background-size: 250px;
+    background-position: -70px -35px;
+    border-radius: 73% 27% 82% 18% / 26% 85% 15% 74%;
+    
+    box-shadow: 0px 0px 80px rgb(0, 0, 0);
+    width: 150px;
+
+    padding: 7px;
+}
+
+nav{
+    background: linear-gradient(240deg, #0f202777, #2c536477);
+    box-shadow: 0px 0px 200px rgba(0, 0, 0, 0.712);
+    border-bottom: 1px solid white;
+    text-shadow: 2px 2px 5px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    padding-left: 60px;
+}
+
+nav a{
+    align-self: left;
+    text-decoration:none;
+    color: white;
+    font-size: larger;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+main{
+    padding-top: 50px;
+}
+
+footer{
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.747);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 100%;
+    text-align: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer p{
+    margin-bottom: -25px;
+}
+
+.social_medias{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.social_medias img{
+    padding-right: 30px;
+    height: 30px;
+}
