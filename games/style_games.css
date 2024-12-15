@@ -72,7 +72,7 @@
 
 }   
 
-.life_trap, .two_worlds{
+.life_trap, .two_worlds, .hellvolution{
     height: 350px;
     padding-top: 180px;
     font-weight: 900;
@@ -95,6 +95,10 @@
 .two_worlds{
     background-image: url("../images/games/image_two_worlds_3.png");
 }  
+
+.hellvolution{
+    background-image: url("../images/games/image_hellvolution.png");
+}
 
 .content{
     margin-top: 70px;
