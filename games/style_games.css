@@ -81,6 +81,9 @@
     background-size: 110%;
     background-position: -110px -220px;
     box-shadow: 0px 0px 100px black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }   
 
 .description_{
@@ -98,6 +101,10 @@
 
 .hellvolution{
     background-image: url("../images/games/hellvolution_background.png");
+}
+
+.hellvolution img{
+    width:80%;
 }
 
 .content{

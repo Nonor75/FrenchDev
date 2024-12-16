@@ -7,6 +7,7 @@
     background-image: url(images/script.png);
     height: 800px;
     margin-bottom: -30px;
+    background-size: cover;
 }
 
 .text-centered{
